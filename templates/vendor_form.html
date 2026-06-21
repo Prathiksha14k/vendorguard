@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3 class="mb-4">{% if vendor %}Edit Vendor{% else %}Add New Vendor{% endif %}</h3>
+
+<form method="POST" class="card p-4 shadow-sm">
+
+    <div class="mb-3">
+        <label class="form-label">Vendor Name</label>
+        <input type="text" name="name" class="form-control" required
+               value="{{ vendor.name if vendor else '' }}">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Category</label>
+        <input type="text" name="category" class="form-control" placeholder="e.g. Cloud Provider, MSP, Contractor" required
+               value="{{ vendor.category if vendor else '' }}">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Contact Email</label>
+        <input type="email" name="contact_email" class="form-control"
+               value="{{ vendor.contact_email if vendor else '' }}">
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label class="form-label">Contract Start</label>
+            <input type="date" name="contract_start" class="form-control"
+                   value="{{ vendor.contract_start if vendor else '' }}">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Contract End</label>
+            <input type="date" name="contract_end" class="form-control"
+                   value="{{ vendor.contract_end if vendor else '' }}">
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Last Assessment Date</label>
+        <input type="date" name="last_assessment_date" class="form-control"
+               value="{{ vendor.last_assessment_date if vendor else '' }}">
+    </div>
+
+    <hr>
+    <h5 class="mb-3">Risk Inputs (1 = lowest, 10 = highest)</h5>
+
+    <div class="mb-3">
+        <label class="form-label">Data Sensitivity: <span id="ds_val">{{ vendor.data_sensitivity if vendor else 1 }}</span></label>
+        <input type="range" min="1" max="10" name="data_sensitivity" class="form-range"
+               value="{{ vendor.data_sensitivity if vendor else 1 }}"
+               oninput="ds_val.innerText = this.value">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Access Scope: <span id="as_val">{{ vendor.access_scope if vendor else 1 }}</span></label>
+        <input type="range" min="1" max="10" name="access_scope" class="form-range"
+               value="{{ vendor.access_scope if vendor else 1 }}"
+               oninput="as_val.innerText = this.value">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Compliance Gaps: <span id="cg_val">{{ vendor.compliance_gaps if vendor else 1 }}</span></label>
+        <input type="range" min="1" max="10" name="compliance_gaps" class="form-range"
+               value="{{ vendor.compliance_gaps if vendor else 1 }}"
+               oninput="cg_val.innerText = this.value">
+    </div>
+
+    <div class="mb-4">
+        <label class="form-label">Financial Health (10 = healthiest): <span id="fh_val">{{ vendor.financial_health if vendor else 10 }}</span></label>
+        <input type="range" min="1" max="10" name="financial_health" class="form-range"
+               value="{{ vendor.financial_health if vendor else 10 }}"
+               oninput="fh_val.innerText = this.value">
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        {% if vendor %}Save Changes{% else %}Add Vendor{% endif %}
+    </button>
+    <a href="{{ url_for('dashboard') }}" class="btn btn-outline-secondary">Cancel</a>
+</form>
+
+{% endblock %}

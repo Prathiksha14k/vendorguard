@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="mb-4">Compliance Tracker</h2>
+
+<table class="table table-hover shadow-sm bg-white">
+    <thead class="table-dark">
+        <tr>
+            <th>Vendor</th>
+            <th>Certification</th>
+            <th>Status</th>
+            <th>Issued</th>
+            <th>Expires</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for cert in certs %}
+        <tr class="{% if cert.expiry_date and (cert.expiry_date - today).days <= 60 %}table-danger{% endif %}">
+            <td><a href="{{ url_for('vendor_detail', vendor_id=cert.vendor_id) }}">{{ cert.vendor.name }}</a></td>
+            <td>{{ cert.cert_type }}</td>
+            <td>{{ cert.status }}</td>
+            <td>{{ cert.issue_date or "N/A" }}</td>
+            <td>{{ cert.expiry_date or "N/A" }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="5" class="text-muted">No certification data yet.</td></tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

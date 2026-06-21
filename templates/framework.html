@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="mb-4">Compliance Framework Alignment</h2>
+
+<div class="card shadow-sm p-4 mb-3">
+    <h5>GDPR Article 28 — Data Processor Requirements</h5>
+    <p>Our Compliance Tracker enforces that vendors with sensitive data access (data_sensitivity ≥ 6) hold valid SOC2/ISO27001/GDPR DPA certifications. Missing or expired certs trigger <code>EXPIRED_CERTIFICATION</code> anomalies.</p>
+</div>
+
+<div class="card shadow-sm p-4 mb-3">
+    <h5>GDPR Article 33 — 72-Hour Breach Notification</h5>
+    <p>Recent breaches (within 12 months) on vendors with sensitive access are flagged <code>BREACHED_VENDOR_HIGH_ACCESS</code> at CRITICAL severity, surfaced immediately on the Alerts page so the 72-hour notification clock can be managed.</p>
+</div>
+
+<div class="card shadow-sm p-4 mb-3">
+    <h5>NIST SP 800-53 SA-9 — Third-Party Service Security</h5>
+    <p>Every vendor has a <code>last_assessment_date</code>; assessments overdue by 365+ days trigger automatic alerts, enforcing regular third-party review cycles.</p>
+</div>
+
+<div class="card shadow-sm p-4 mb-3">
+    <h5>SOX 404 — Control Dependencies on Third Parties</h5>
+    <p>The Vendor Detail page's score breakdown chart makes each control dependency (data sensitivity, access scope, compliance gaps, financial health) auditable and explainable — supporting internal control evaluation.</p>
+</div>
+
+{% endblock %}

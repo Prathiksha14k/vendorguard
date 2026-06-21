@@ -1,0 +1,276 @@
+/* ============================================
+   VendorGuard — Custom Styling
+   ============================================ */
+
+/* --- Font & base setup --- */
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: #F8F9FA;
+    color: #212529;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #1A2B4C;
+}
+
+/* --- Navbar --- */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: -0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    opacity: 0.85;
+}
+
+/* --- Cards (general) --- */
+.card {
+    border: 1px solid #e9ecef;
+    border-radius: 14px;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Vendor cards on dashboard --- */
+.vendor-card {
+    border-radius: 14px;
+    border-left: 5px solid #dee2e6;
+    cursor: pointer;
+}
+
+.vendor-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Color the left border based on risk badge present inside the card */
+.vendor-card:has(.badge.bg-success) {
+    border-left-color: #2ECC71;
+}
+.vendor-card:has(.badge.bg-warning) {
+    border-left-color: #F1C40F;
+}
+.vendor-card:has(.badge.bg-danger) {
+    border-left-color: #E74C3C;
+}
+
+/* --- Summary stat cards (top of dashboard) --- */
+.card.border-success { border-width: 2px !important; }
+.card.border-warning { border-width: 2px !important; }
+.card.border-danger  { border-width: 2px !important; }
+
+/* --- Badges --- */
+.badge {
+    border-radius: 8px;
+    padding: 0.45em 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+/* --- Buttons --- */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.15s ease;
+}
+
+.btn-primary {
+    background-color: #1A2B4C;
+    border-color: #1A2B4C;
+}
+
+.btn-primary:hover {
+    background-color: #28406e;
+    border-color: #28406e;
+    transform: translateY(-1px);
+}
+
+/* --- Tables --- */
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead.table-dark th {
+    background-color: #1A2B4C;
+    border-color: #1A2B4C;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f4f9;
+}
+
+/* --- Forms --- */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #1A2B4C;
+    box-shadow: 0 0 0 0.2rem rgba(26, 43, 76, 0.15);
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: #1A2B4C;
+}
+
+/* --- Page fade-in animation --- */
+.container {
+    animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Footer --- */
+footer {
+    border-top: 1px solid #e9ecef;
+    margin-top: 2rem;
+}
+
+/* --- Alerts list (alerts page rows) --- */
+.table-warning {
+    background-color: #fff8e1 !important;
+}
+
+.table-danger {
+    background-color: #fdecea !important;
+}
+/* ============================================
+   EXTRA STYLING — round 2
+   ============================================ */
+
+/* --- Reliable tier coloring (replaces :has() trick) --- */
+.vendor-card.tier-low {
+    border-left: 5px solid #2ECC71;
+}
+.vendor-card.tier-medium {
+    border-left: 5px solid #F1C40F;
+}
+.vendor-card.tier-high {
+    border-left: 5px solid #E74C3C;
+}
+
+/* --- Score progress bar on vendor cards --- */
+.score-bar-track {
+    width: 100%;
+    height: 6px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.score-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease;
+}
+
+.tier-fill-low    { background-color: #2ECC71; }
+.tier-fill-medium { background-color: #F1C40F; }
+.tier-fill-high   { background-color: #E74C3C; }
+
+/* --- Navbar gradient instead of flat color --- */
+.navbar {
+    background: linear-gradient(135deg, #1A2B4C 0%, #25406e 100%) !important;
+}
+
+/* --- Summary stat cards: subtle gradient backgrounds --- */
+.card.border-success {
+    background: linear-gradient(135deg, #ffffff 0%, #eafaf1 100%);
+}
+.card.border-warning {
+    background: linear-gradient(135deg, #ffffff 0%, #fef9e7 100%);
+}
+.card.border-danger {
+    background: linear-gradient(135deg, #ffffff 0%, #fdedec 100%);
+}
+
+/* --- Icon sizing in vendor cards --- */
+.vendor-card .bi {
+    margin-right: 4px;
+    color: #6c757d;
+}
+
+/* --- Badge pulse animation for High risk (draws the eye) --- */
+.badge.bg-danger {
+    animation: pulseRed 2s infinite;
+}
+
+@keyframes pulseRed {
+    0%   { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+    70%  { box-shadow: 0 0 0 6px rgba(231, 76, 60, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+}
+
+/* --- Empty state styling --- */
+.empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #adb5bd;
+}
+
+.empty-state i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* --- Loading skeleton shimmer (optional, for future async loads) --- */
+.skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* --- Chart cards (vendor detail page) --- */
+.card h6 {
+    color: #6c757d;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* --- Sticky-ish filter bar feel --- */
+form.row.g-2 {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* --- Print styling for Reports page --- */
+@media print {
+    .navbar, footer, .btn { display: none !important; }
+    .card { box-shadow: none !important; border: 1px solid #ccc !important; }
+}
+
+/* --- Mobile responsiveness tweaks --- */
+@media (max-width: 768px) {
+    .navbar-brand { font-size: 1.1rem; }
+    h2 { font-size: 1.4rem; }
+}

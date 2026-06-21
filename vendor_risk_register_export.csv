@@ -1,0 +1,360 @@
+Vendor ID,Name,Category,Risk Score,Risk Tier,Anomaly Type,Severity,Recommended Action,Contract End,Last Assessment
+VND-0089,Rivera-Gonzales,HR Platform,23.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-03-01,2026-05-18
+VND-0382,"Nguyen, Mason and Heath",Cloud Provider,22.4,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-07-24,2025-09-25
+VND-0030,"Davis, Phelps and Palmer",Software Vendor,20.0,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-02-04,2025-12-26
+VND-0078,Avila and Sons,Software Vendor,19.6,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-06-30,2025-04-08
+VND-0149,Garza-Hall,HR Platform,19.4,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-04-23,2026-10-08
+VND-0086,Rice-Warren,Contractor,19.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-03-09,2026-03-18
+VND-0126,Melendez Ltd,Cloud Provider,19.0,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-01-08,2024-10-16
+VND-0182,"Allen, Ross and Carter",Data Analytics,18.4,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-01-10,2025-11-06
+VND-0194,Norton and Sons,IT Services,18.4,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-05-28,2026-09-17
+VND-0098,"Hernandez, Jennings and Moore",HR Platform,18.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-05-31,2025-10-10
+VND-0067,Flores and Sons,Software Vendor,17.9,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-06-07,2024-10-20
+VND-0111,"Lee, Johnson and Smith",Contractor,17.8,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-02-08,2026-05-08
+VND-0036,Hansen-Martin,Software Vendor,17.5,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-03-25,2026-12-08
+VND-0150,Lewis-Powell,Contractor,17.5,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-09-18,2025-08-19
+VND-0140,Davis Ltd,Contractor,17.2,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-03-13,2026-03-24
+VND-0115,Nolan-Rollins,Cloud Provider,16.6,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-05-01,2025-10-29
+VND-0122,"Harris, Edwards and Garner",Software Vendor,16.4,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-04-07,2024-06-05
+VND-0127,"Bean, Meyers and Jones",Cloud Provider,16.4,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-09-16,2024-04-14
+VND-0170,Miller Group,HR Platform,16.2,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-11-18,2024-08-18
+VND-0279,Walsh PLC,Contractor,16.2,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-01-05,2026-01-29
+VND-0371,"Howard, Jones and Harris",Backup Provider,16.2,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-03-25,2026-05-15
+VND-0220,"Chang, Miller and Williams",Software Vendor,16.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-08-11,2026-02-14
+VND-0252,"Villarreal, Smith and Mcdowell",IT Services,16.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-10-16,2025-10-30
+VND-0301,"Graham, Miller and Evans",Cloud Provider,16.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-12-16,2026-08-18
+VND-0337,"Walker, Allen and Villarreal",IT Services,16.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-03-19,2026-05-13
+VND-0330,"Clark, Moore and Ramos",Software Vendor,15.6,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-10-10,2024-09-15
+VND-0393,"Mcpherson, Turner and Martin",Contractor,15.6,High,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-03-17,2025-01-08
+VND-0339,Campbell Inc,IT Services,15.5,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-03-02,2026-01-24
+VND-0166,Simmons Inc,Consulting,15.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-07-14,2026-05-16
+VND-0345,"Watson, Simpson and Simmons",Contractor,15.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-12-17,2026-03-05
+VND-0349,"Gentry, Nash and Navarro",Contractor,15.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-01-16,2025-07-14
+VND-0384,Gray LLC,Data Analytics,15.0,High,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-08-04,2026-05-09
+VND-0288,"Gomez, Johnson and Kennedy",Software Vendor,14.6,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-06-12,2025-06-23
+VND-0357,Cisneros and Sons,Software Vendor,14.5,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-10-05,2026-03-04
+VND-0332,"Mueller, Santana and Watkins",Software Vendor,14.2,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-01-20,2026-04-22
+VND-0175,Rodriguez and Sons,HR Platform,14.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-11-23,2026-08-08
+VND-0321,Ali-Silva,Security Vendor,14.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-05-16,2026-11-11
+VND-0286,Rivera-Campbell,Backup Provider,13.7,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-08-19,2026-01-26
+VND-0048,Peterson-Johnson,Payment Processor,13.6,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-11-19,2025-06-04
+VND-0178,"Harris, Cruz and Reeves",Contractor,13.6,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-12-04,2026-05-20
+VND-0039,Koch-Kirk,Software Vendor,13.5,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-12-01,2024-10-04
+VND-0097,Luna-Durham,Security Vendor,13.5,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-04-15,2026-07-05
+VND-0198,"Wilcox, Montgomery and Jackson",Contractor,13.5,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2024-02-10,2026-05-23
+VND-0379,Hill PLC,Cloud Provider,13.5,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-07-31,2026-03-19
+VND-0011,Sloan and Sons,Data Analytics,13.2,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-08-29,2026-11-17
+VND-0118,Clarke Group,Payment Processor,13.2,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-10-17,2024-02-07
+VND-0257,Jones Inc,Payment Processor,13.2,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-11-28,2026-05-19
+VND-0134,"Barnes, Smith and Garza",HR Platform,13.1,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-04-26,2026-11-23
+VND-0244,"Ray, Baker and Perez",Backup Provider,13.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-02-28,2026-07-27
+VND-0310,Elliott LLC,Software Vendor,13.0,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2024-05-11,2024-10-30
+VND-0322,"Hood, Ray and Ellis",Cloud Provider,13.0,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-09-05,2024-05-23
+VND-0331,Ross-Clark,Payment Processor,13.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-11-17,2026-03-23
+VND-0372,"Reynolds, Castro and Valdez",Data Analytics,13.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-03-09,2026-11-18
+VND-0265,Serrano-Garcia,Contractor,12.8,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-02-02,2026-08-26
+VND-0073,Higgins and Sons,Cloud Provider,12.7,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-12-25,2025-10-13
+VND-0319,Burke-Russell,Consulting,12.5,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-08-10,2026-07-07
+VND-0145,Cardenas PLC,Software Vendor,12.2,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-02-23,2026-08-25
+VND-0154,"Ramsey, Newton and Johnson",Contractor,12.2,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-01-26,2026-11-02
+VND-0385,"Ford, Morris and Sandoval",Software Vendor,12.2,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-12-24,2026-05-27
+VND-0110,Brewer-Rogers,Payment Processor,12.1,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-01-23,2026-07-08
+VND-0081,Washington Ltd,Cloud Provider,12.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-11-07,2026-01-27
+VND-0094,Nelson-Johnson,Payment Processor,12.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-04-15,2026-08-05
+VND-0195,Thompson Inc,Security Vendor,12.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-02-16,2026-05-16
+VND-0203,Weber-Walker,Consulting,12.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-10-16,2026-08-31
+VND-0360,Freeman-Caldwell,Consulting,11.8,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-07-20,2026-02-03
+VND-0066,"Collins, Fleming and Lopez",Software Vendor,11.5,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-09-09,2025-12-08
+VND-0368,"Townsend, Gray and Alexander",Contractor,11.5,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-06-06,2026-07-10
+VND-0043,Brown Inc,IT Services,11.4,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-05-30,2026-11-05
+VND-0141,"Lee, Walker and Mcgee",IT Services,11.4,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-01-12,2025-12-12
+VND-0376,Hernandez-Green,Data Analytics,11.4,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-01-05,2026-08-16
+VND-0095,Moreno Ltd,Consulting,11.2,Medium,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-06-30,2025-01-28
+VND-0114,Gray-Rodriguez,Contractor,11.0,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-06-02,2025-08-05
+VND-0002,"Weber, Smith and Mcguire",HR Platform,10.8,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-02-09,2026-12-19
+VND-0276,Jimenez-Lopez,Contractor,10.8,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-01-28,2025-07-16
+VND-0285,"Deleon, Ortiz and Lin",IT Services,10.6,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-01-12,2026-01-03
+VND-0335,Davis and Sons,Software Vendor,10.5,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-03-30,2025-10-14
+VND-0344,"Dunlap, Reynolds and Schneider",Contractor,10.5,Medium,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-11-22,2025-11-21
+VND-0181,Chavez-Case,Payment Processor,10.4,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-08-18,2026-09-22
+VND-0262,"Sanchez, Gould and Perez",Cloud Provider,10.4,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-05-09,2024-07-24
+VND-0102,Sanders-Morales,Backup Provider,10.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-12-03,2026-10-03
+VND-0138,Armstrong Inc,Consulting,10.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-02-28,2026-01-21
+VND-0351,Holder Ltd,Software Vendor,10.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-05-22,2025-10-19
+VND-0394,Hernandez LLC,Cloud Provider,10.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-04-02,2026-08-30
+VND-0045,Goodman-Williams,Payment Processor,9.8,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-12-29,2025-07-09
+VND-0079,Martin-Carpenter,Payment Processor,9.4,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-05-02,2026-04-05
+VND-0084,Rose-Austin,Security Vendor,9.3,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-05-05,2026-07-12
+VND-0226,Owen Group,IT Services,9.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-10-11,2025-09-18
+VND-0236,"Moore, Barrera and Barnes",Contractor,9.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-07-21,2025-07-17
+VND-0247,"Mathis, Lee and English",Contractor,8.8,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2024-05-09,2024-01-08
+VND-0333,"Miller, Perez and Fuentes",Security Vendor,8.8,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-08-09,2026-07-02
+VND-0123,Shah LLC,Cloud Provider,8.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-12-26,2025-11-21
+VND-0249,"West, Brooks and Andrews",IT Services,8.5,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-03-07,2025-10-21
+VND-0290,"Mckinney, Bowen and Rice",Cloud Provider,8.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-03-26,2026-01-10
+VND-0308,Haynes-Williams,Cloud Provider,8.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-10-11,2025-06-24
+VND-0328,Martin and Sons,Consulting,8.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-08-18,2024-07-02
+VND-0346,Strickland PLC,Contractor,8.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-05-07,2026-01-09
+VND-0007,"Washington, Graves and Martinez",Contractor,8.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-01-16,2026-03-23
+VND-0013,Stone-Stephenson,Software Vendor,8.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-03-03,2025-12-05
+VND-0083,Schwartz-Mahoney,Payment Processor,8.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-08-06,2026-04-13
+VND-0156,Blake-Mccullough,Consulting,8.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2024-11-12,2026-07-06
+VND-0035,"Martinez, Sharp and Stevens",Cloud Provider,7.9,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-04-02,2026-05-30
+VND-0324,Smith-Jackson,Contractor,7.9,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-10-20,2025-01-14
+VND-0006,"Lee, Hall and Parker",Security Vendor,7.8,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2024-09-26,2026-03-27
+VND-0378,Wilcox Inc,Backup Provider,7.7,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-04-10,2024-08-31
+VND-0169,Arnold and Sons,Contractor,7.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-01-04,2026-03-26
+VND-0387,"Sloan, Perkins and Sims",Cloud Provider,7.2,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-11-10,2025-03-16
+VND-0019,Ferrell-Pena,Software Vendor,7.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-01-10,2026-11-16
+VND-0136,Jackson Inc,IT Services,7.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-10-29,2026-01-19
+VND-0366,Hodge-Mora,Software Vendor,7.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-06-28,2024-12-08
+VND-0396,Hunter Inc,Security Vendor,7.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-06-25,2026-01-01
+VND-0022,"Jones, Robles and Freeman",Consulting,6.8,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2023-12-18,2026-12-17
+VND-0168,"Robinson, Richardson and White",Consulting,6.7,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2028-11-12,2026-07-22
+VND-0362,Stewart-Harvey,Cloud Provider,6.6,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-02-12,2026-05-08
+VND-0044,Schultz and Sons,Cloud Provider,6.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-12-28,2026-06-22
+VND-0146,Long-Watts,Payment Processor,6.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-06-17,2024-11-02
+VND-0191,"Allen, Peters and Patterson",IT Services,6.5,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-09-26,2026-01-19
+VND-0327,Cross-Goodwin,Security Vendor,6.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-05-13,2026-07-29
+VND-0049,Villa-Rodriguez,Payment Processor,6.4,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-08-02,2026-10-03
+VND-0113,Williams-Walsh,Contractor,6.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-11-21,2024-03-24
+VND-0189,"Ortega, Perez and Palmer",IT Services,6.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-11-04,2024-12-14
+VND-0267,Petty PLC,Data Analytics,6.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-02-20,2024-01-14
+VND-0363,Roberts Ltd,Backup Provider,6.0,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2027-04-26,2025-12-21
+VND-0386,Cole-Williams,Consulting,6.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-02-04,2025-10-21
+VND-0052,Huffman PLC,Cloud Provider,5.7,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2024-02-14,2026-11-06
+VND-0216,"Wall, Jimenez and Daugherty",Data Analytics,5.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-08-01,2026-06-21
+VND-0342,Valdez Inc,Contractor,5.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-10-15,2024-01-21
+VND-0008,Gallegos-Warren,Software Vendor,5.4,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2025-09-26,2025-08-19
+VND-0032,Lyons-Cruz,Software Vendor,5.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2023-08-06,2024-10-09
+VND-0315,Carrillo PLC,IT Services,5.0,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-12-23,2024-01-26
+VND-0063,Mathews-Myers,IT Services,4.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2026-07-13,2026-04-18
+VND-0343,Howard LLC,Software Vendor,4.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-07-12,2025-10-14
+VND-0239,Anderson-Mcpherson,Cloud Provider,4.2,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-08-28,2024-10-09
+VND-0065,"Thomas, Myers and Butler",Contractor,3.8,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2027-07-28,2024-10-30
+VND-0147,Mendoza PLC,Software Vendor,3.8,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2025-04-21,2025-08-31
+VND-0300,"Perez, Andrews and Hernandez",Software Vendor,3.6,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2028-05-02,2025-11-13
+VND-0106,"Chen, Harper and Boyd",Payment Processor,3.5,Low,VENDOR_UNDER_INVESTIGATION,CRITICAL,Suspend new data sharing until investigation concludes.,2024-03-20,2024-03-30
+VND-0325,"Smith, Clark and Bennett",Software Vendor,2.8,Low,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,Immediate compliance meeting required — breached vendor has sensitive data access.,2026-04-19,2025-07-09
+VND-0157,Webster Group,Software Vendor,17.9,High,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2024-09-25,2024-05-27
+VND-0320,Mann-Stanley,Contractor,17.4,High,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2023-04-11,2026-09-24
+VND-0205,"Harris, Andrews and Soto",Security Vendor,16.0,High,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-08-17,2026-10-31
+VND-0295,Hayes-Nixon,Data Analytics,15.8,High,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-11-04,2025-05-03
+VND-0251,"Murphy, Anderson and Williams",Backup Provider,15.6,High,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-08-19,2025-05-31
+VND-0284,Oliver PLC,Backup Provider,15.6,High,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2023-05-03,2025-03-03
+VND-0356,Duran-Garcia,Data Analytics,15.2,High,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-07-10,2024-02-16
+VND-0266,"Jackson, Cooper and Wyatt",Software Vendor,14.8,Medium,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2027-07-02,2025-02-12
+VND-0159,Morgan and Sons,Contractor,14.4,Medium,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2025-08-18,2024-12-06
+VND-0238,Owens-Mccullough,Cloud Provider,14.4,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-04-03,2024-05-16
+VND-0264,Holmes Inc,Security Vendor,14.4,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-08-02,2025-11-06
+VND-0096,Lawrence LLC,Contractor,14.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-12-17,2024-12-19
+VND-0219,Yates and Sons,Software Vendor,14.0,Medium,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2026-06-10,2026-05-20
+VND-0354,Thompson-Cochran,Backup Provider,13.6,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-01-24,2026-01-14
+VND-0391,Greer-Jones,Consulting,13.6,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-09-24,2024-06-22
+VND-0398,Livingston-Kennedy,Security Vendor,13.6,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-05-16,2025-03-12
+VND-0202,Matthews-Walker,Software Vendor,13.4,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-11-02,2025-07-25
+VND-0326,Perez-Hess,Data Analytics,13.2,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-08-28,2025-02-15
+VND-0029,"Parker, Russo and Curry",Cloud Provider,13.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-11-13,2025-01-05
+VND-0059,Robinson-Mendoza,Backup Provider,13.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-06-11,2026-04-17
+VND-0109,Hubbard-Monroe,Cloud Provider,13.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-07-22,2025-09-26
+VND-0116,"Morales, Bryant and Hanson",Security Vendor,13.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-02-14,2024-09-11
+VND-0025,"Hoffman, Santos and Gonzalez",HR Platform,12.4,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-12-25,2025-03-12
+VND-0012,Tucker LLC,Data Analytics,12.2,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-08-19,2024-03-13
+VND-0024,"Turner, Stewart and Bailey",Cloud Provider,12.2,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-01-08,2024-11-06
+VND-0055,Freeman and Sons,Cloud Provider,12.2,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-10-22,2024-04-03
+VND-0017,Lang PLC,Software Vendor,12.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-01-09,2026-07-18
+VND-0069,"Murphy, Anderson and Nichols",Security Vendor,12.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-08-08,2024-06-27
+VND-0139,"Johnson, Williams and Mccarthy",Cloud Provider,12.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2027-06-13,2024-09-28
+VND-0061,"Ortega, Vega and Gibson",Data Analytics,11.5,Medium,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2028-01-09,2025-05-11
+VND-0232,"Webb, Rivera and Walker",Cloud Provider,11.5,Medium,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2023-09-02,2026-12-12
+VND-0125,Reed-Lang,Security Vendor,11.4,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-07-25,2026-03-15
+VND-0143,Hernandez Group,Contractor,11.4,Medium,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2027-04-06,2024-08-23
+VND-0234,Garcia-Hernandez,Contractor,11.4,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-04-30,2026-06-21
+VND-0253,Kennedy-Jackson,Software Vendor,11.4,Medium,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2027-06-17,2024-09-06
+VND-0054,Delgado Ltd,IT Services,11.2,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-09-13,2026-02-11
+VND-0280,"Lopez, Castro and Buck",Contractor,11.0,Medium,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-10-11,2026-08-29
+VND-0340,Smith LLC,Software Vendor,10.7,Medium,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2028-07-10,2025-02-22
+VND-0091,Peterson-Cook,Software Vendor,10.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-03-19,2026-08-02
+VND-0087,Gilbert-Hancock,Software Vendor,10.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-03-13,2024-11-20
+VND-0305,Thomas Inc,HR Platform,10.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-03-30,2026-06-01
+VND-0392,King Inc,Contractor,9.6,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-02-27,2024-05-12
+VND-0397,Stein-Melton,Security Vendor,9.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2027-04-21,2026-11-14
+VND-0018,"Sanders, Davis and Fisher",Software Vendor,9.2,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-05-16,2024-07-18
+VND-0213,Frazier Ltd,Payment Processor,9.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-11-27,2026-01-21
+VND-0241,"Horn, Davis and Hooper",Software Vendor,9.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-02-04,2024-09-29
+VND-0303,Rodriguez-Moore,Software Vendor,9.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-08-18,2026-09-20
+VND-0105,Richardson Group,Software Vendor,8.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-10-24,2025-03-30
+VND-0046,"Williams, James and Rivera",IT Services,8.6,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-09-24,2024-04-29
+VND-0088,"Beard, Andersen and Fields",Security Vendor,8.6,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-09-17,2025-06-09
+VND-0099,Moss-Cross,Cloud Provider,8.6,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-01-30,2024-05-16
+VND-0274,Perkins-Velazquez,Software Vendor,8.6,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-07-16,2025-04-30
+VND-0374,Thompson and Sons,Consulting,8.6,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-04-22,2025-02-26
+VND-0056,Hill and Sons,Security Vendor,8.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-12-14,2024-08-14
+VND-0263,Jarvis-Willis,Security Vendor,8.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-04-28,2024-04-08
+VND-0186,Bruce Inc,IT Services,8.2,Low,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2024-09-08,2024-08-13
+VND-0278,Russell-Paul,Software Vendor,8.2,Low,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2027-01-26,2026-07-18
+VND-0287,Knight PLC,Security Vendor,8.2,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-05-07,2025-07-01
+VND-0128,"Rivera, Munoz and Moran",Consulting,7.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-01-26,2024-01-17
+VND-0190,Powell LLC,Consulting,7.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-09-29,2024-05-13
+VND-0281,"Leach, Turner and Monroe",Payment Processor,7.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2027-02-25,2024-07-06
+VND-0093,Burns-Morales,IT Services,7.2,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-01-28,2025-12-07
+VND-0259,Mitchell-Lane,Cloud Provider,7.2,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-06-03,2026-02-11
+VND-0323,"Griffin, Taylor and Terrell",Contractor,7.2,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-01-22,2026-06-03
+VND-0121,Fuller PLC,Software Vendor,7.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-08-31,2025-06-28
+VND-0176,Reed and Sons,Software Vendor,7.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-08-07,2026-11-04
+VND-0021,Miles-Hanson,Software Vendor,6.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-11-14,2025-06-29
+VND-0038,Aguirre-Mayer,Security Vendor,6.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-03-19,2025-05-22
+VND-0158,"Morales, Castillo and Jones",Cloud Provider,6.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-08-30,2025-06-02
+VND-0302,"Williams, Smith and Pearson",Security Vendor,6.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-11-12,2024-12-25
+VND-0273,Johnson LLC,Security Vendor,6.2,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-12-23,2026-08-18
+VND-0329,"Robinson, Morales and Flores",Software Vendor,6.2,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-06-26,2024-01-25
+VND-0358,Travis-Velez,Consulting,6.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-06-21,2025-09-01
+VND-0001,Jackson-Robinson,Software Vendor,5.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-10-13,2024-10-27
+VND-0218,Terry Inc,Security Vendor,5.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-08-21,2024-06-30
+VND-0040,Lynch LLC,Payment Processor,5.6,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-06-17,2025-03-13
+VND-0233,Ibarra Ltd,Payment Processor,5.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-03-28,2026-10-24
+VND-0341,Ayers-Bryan,Backup Provider,5.4,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-05-26,2024-08-08
+VND-0103,"Lutz, Mcmahon and Adams",Consulting,5.2,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2024-03-04,2025-04-18
+VND-0031,Edwards LLC,Software Vendor,5.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-06-17,2024-02-26
+VND-0037,Graham-Hammond,Cloud Provider,5.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2023-06-20,2024-05-29
+VND-0058,Wagner Inc,Contractor,5.0,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2027-02-06,2024-05-25
+VND-0137,Henderson-Mann,Software Vendor,4.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-07-15,2026-04-07
+VND-0312,"Willis, Aguilar and Vargas",IT Services,4.6,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2025-07-16,2024-08-20
+VND-0383,Baird PLC,IT Services,4.6,Low,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2024-11-10,2024-06-02
+VND-0053,"Mcintosh, Briggs and Hopkins",Data Analytics,4.5,Low,HIGH_RISK_SCORE,HIGH,Escalate to risk committee for formal review.,2023-07-12,2024-09-05
+VND-0188,Buck-Williams,Software Vendor,3.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2028-04-01,2024-02-09
+VND-0129,Garcia-Morgan,Security Vendor,2.8,Low,EXPIRED_CERTIFICATION,HIGH,Request updated certification from vendor within 30 days.,2026-01-13,2026-04-23
+VND-0221,Walker-Mcmahon,Security Vendor,23.0,High,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-09-19,2024-05-09
+VND-0174,Rojas LLC,Contractor,16.0,High,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-07-28,2026-02-03
+VND-0009,Nguyen-Clark,Backup Provider,15.5,High,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2027-06-04,2024-08-03
+VND-0117,Smith-Robles,Cloud Provider,15.0,High,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-11-22,2025-02-06
+VND-0165,Liu-Cole,Contractor,14.6,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-05-01,2024-05-04
+VND-0352,Kramer-Browning,Payment Processor,14.4,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-12-29,2024-07-11
+VND-0132,Gordon and Sons,Security Vendor,14.2,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-11-10,2025-05-29
+VND-0243,Miller LLC,Cloud Provider,14.2,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-02-21,2025-04-05
+VND-0250,"Schwartz, Nelson and Cohen",Contractor,14.1,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-09-03,2024-07-23
+VND-0245,Nolan PLC,Software Vendor,13.7,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2025-10-28,2024-07-11
+VND-0135,Wood-Jimenez,Software Vendor,13.2,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2026-03-03,2024-12-16
+VND-0230,Thompson PLC,Software Vendor,13.0,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2028-09-08,2026-08-19
+VND-0026,"Travis, Hicks and Wright",Security Vendor,12.9,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-01-28,2024-10-28
+VND-0214,"Delgado, White and Taylor",Software Vendor,12.5,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-05-02,2026-04-05
+VND-0016,Strong-Lawrence,Cloud Provider,12.4,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-11-15,2025-02-25
+VND-0237,Gilmore PLC,IT Services,12.4,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-04-28,2024-04-05
+VND-0208,Morris PLC,Software Vendor,12.2,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-04-01,2026-03-01
+VND-0389,Campos and Sons,Contractor,12.2,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-04-24,2026-11-14
+VND-0092,Hodges Inc,Cloud Provider,12.0,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2026-04-23,2025-12-15
+VND-0057,Moore-Pope,Cloud Provider,11.9,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-09-17,2024-07-09
+VND-0311,Townsend-Black,Cloud Provider,11.8,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-05-02,2024-09-21
+VND-0225,Melendez and Sons,Security Vendor,11.6,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-09-29,2026-07-07
+VND-0192,"Moore, Davis and Perez",Contractor,11.4,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-11-24,2025-12-14
+VND-0388,Jennings-Smith,Payment Processor,11.3,Medium,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2023-07-01,2026-01-20
+VND-0071,Kline-Lin,Consulting,11.2,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-01-08,2025-06-03
+VND-0153,Rodriguez-Jacobs,HR Platform,11.0,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-04-13,2024-08-14
+VND-0164,Smith-Hurley,HR Platform,11.0,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-12-24,2025-03-18
+VND-0180,Johnson-Case,Payment Processor,11.0,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-03-15,2024-03-30
+VND-0199,"Howard, Mitchell and Burnett",Cloud Provider,11.0,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-12-11,2025-05-18
+VND-0268,Ellis-Russell,Software Vendor,10.7,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-10-08,2025-03-29
+VND-0173,Boyle-Richards,Payment Processor,10.6,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2028-11-09,2025-03-02
+VND-0246,"Ruiz, Williams and Turner",Cloud Provider,10.6,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-11-01,2024-04-30
+VND-0068,Liu Group,Cloud Provider,10.5,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2026-01-14,2024-05-13
+VND-0161,Thompson LLC,Contractor,10.5,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-05-21,2026-06-18
+VND-0254,Johnson PLC,Backup Provider,10.5,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2028-05-22,2025-05-23
+VND-0350,Martin PLC,IT Services,10.5,Medium,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2025-12-11,2024-07-12
+VND-0375,Chen and Sons,Consulting,10.5,Medium,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-09-26,2024-08-22
+VND-0142,Smith-Green,Software Vendor,10.4,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-07-14,2024-07-08
+VND-0298,Williams-Alexander,Software Vendor,10.2,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2027-06-18,2026-09-19
+VND-0365,Wallace LLC,Contractor,10.2,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-06-12,2024-11-24
+VND-0381,Frey-Cunningham,IT Services,10.2,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-10-28,2025-02-01
+VND-0085,"Buck, Camacho and Bowers",Payment Processor,10.1,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-01-03,2024-11-05
+VND-0400,Burch-Perez,Software Vendor,10.1,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-02-23,2025-10-17
+VND-0082,Gomez-Goodman,IT Services,10.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-02-15,2024-03-26
+VND-0107,Gonzales Inc,Cloud Provider,10.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-09-15,2025-01-18
+VND-0167,Freeman-Waters,Software Vendor,10.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-07-01,2024-05-10
+VND-0171,"Marshall, Ramos and Ferguson",Security Vendor,10.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-11-29,2024-10-12
+VND-0235,Hunt-Mendez,Software Vendor,10.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-05-31,2025-10-01
+VND-0313,Graham and Sons,Security Vendor,10.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-12-06,2025-10-28
+VND-0317,Thompson-Mitchell,HR Platform,10.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-12-09,2024-07-12
+VND-0361,Anderson Inc,Contractor,9.9,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2025-09-05,2025-03-27
+VND-0075,Haynes-Aguirre,IT Services,9.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-04-21,2025-09-03
+VND-0124,"Morris, Gutierrez and Mccann",Software Vendor,9.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-01-14,2025-01-29
+VND-0210,"Mckinney, Meyer and Farrell",Cloud Provider,9.5,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2026-08-12,2025-08-25
+VND-0296,Payne-Fernandez,Software Vendor,9.5,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2023-08-10,2026-03-31
+VND-0314,Reeves-Baker,Software Vendor,9.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-05-23,2025-09-10
+VND-0072,Livingston-Bryant,Contractor,9.4,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2025-07-24,2025-08-22
+VND-0256,"Davis, Davis and Montgomery",Data Analytics,9.4,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-01-16,2024-02-18
+VND-0010,"Brown, Clark and Marshall",Contractor,9.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2025-08-16,2026-08-13
+VND-0023,Weaver Inc,Security Vendor,9.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-11-12,2026-01-21
+VND-0307,"Hahn, Griffin and Collins",IT Services,9.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-08-27,2024-10-29
+VND-0370,Herring-Mills,Software Vendor,9.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-05-25,2024-09-13
+VND-0131,Lewis Inc,Security Vendor,8.9,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2025-05-20,2024-10-14
+VND-0028,"Stanley, Farmer and Haley",Backup Provider,8.7,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-02-10,2025-04-28
+VND-0005,"Lewis, Williams and Buck",Data Analytics,8.6,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-02-21,2024-03-01
+VND-0077,"Davis, Reynolds and Turner",Contractor,8.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-02-27,2025-07-20
+VND-0193,Anderson-Newman,Consulting,8.5,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-05-18,2024-01-02
+VND-0200,Keller-Stone,Consulting,8.5,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2024-06-18,2026-09-12
+VND-0222,Buckley Inc,Consulting,8.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-01-08,2024-12-04
+VND-0336,"Myers, Smith and Avila",Cloud Provider,8.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-10-09,2025-05-11
+VND-0399,"Molina, Hanson and Morrison",IT Services,8.5,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2028-03-23,2025-01-14
+VND-0304,Harmon Inc,Software Vendor,8.4,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-02-15,2025-05-09
+VND-0187,"Hart, Wright and Barnes",Cloud Provider,8.2,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-06-29,2024-12-02
+VND-0271,Cervantes-Pearson,Cloud Provider,8.1,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2027-04-24,2025-07-07
+VND-0100,Hernandez-Jenkins,Payment Processor,8.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-08-10,2024-10-24
+VND-0144,Kelley PLC,Cloud Provider,8.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-06-05,2025-03-19
+VND-0160,"Lee, Wilson and Smith",Contractor,8.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-09-19,2024-03-22
+VND-0177,Arroyo PLC,Cloud Provider,8.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-09-02,2024-03-23
+VND-0353,Ayala PLC,HR Platform,7.9,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-08-20,2024-05-28
+VND-0034,Gomez and Sons,Contractor,7.7,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-02-26,2025-11-19
+VND-0277,Ortega PLC,Contractor,7.7,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2027-07-14,2025-12-25
+VND-0261,Oliver-Kennedy,Security Vendor,7.6,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-10-17,2026-03-17
+VND-0152,Wright-Mcmillan,Security Vendor,7.5,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2026-11-08,2025-07-27
+VND-0163,"Elliott, Abbott and Harper",Payment Processor,7.5,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2027-01-03,2025-11-22
+VND-0215,Kim Inc,Consulting,7.5,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-07-19,2024-04-18
+VND-0373,Dixon and Sons,Consulting,7.5,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2028-03-12,2026-10-15
+VND-0258,Richard-Peck,IT Services,7.4,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-12-24,2024-08-01
+VND-0282,"Cook, Hale and Clark",Cloud Provider,7.2,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-06-10,2024-09-09
+VND-0183,Jones PLC,Payment Processor,7.0,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2026-07-03,2025-11-22
+VND-0231,"Jimenez, Galvan and Oliver",IT Services,7.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-06-23,2025-07-01
+VND-0293,"Little, Bray and Elliott",Contractor,7.0,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2027-12-25,2026-10-17
+VND-0112,Gardner and Sons,Cloud Provider,6.9,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-05-04,2024-06-21
+VND-0359,"Banks, Burton and Roach",Contractor,6.8,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-03-27,2026-06-01
+VND-0377,Thomas-Reyes,Software Vendor,6.7,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-11-17,2026-01-08
+VND-0204,"Hamilton, Davila and Sloan",Consulting,6.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-10-12,2024-10-26
+VND-0228,Thornton-Hansen,Software Vendor,6.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-05-07,2026-03-21
+VND-0240,Rodriguez-Anderson,Software Vendor,6.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-08-28,2024-07-15
+VND-0380,Hunter-Johnson,Cloud Provider,6.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-02-10,2025-11-27
+VND-0119,Rice Group,Cloud Provider,6.4,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2028-10-10,2024-07-30
+VND-0027,Buchanan-Mayer,HR Platform,6.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-02-11,2026-05-19
+VND-0148,Morrison-Mora,Software Vendor,6.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-11-28,2025-09-30
+VND-0217,"Hill, Maldonado and Spears",Consulting,6.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2026-05-30,2025-01-26
+VND-0355,Hamilton-Anderson,Contractor,6.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-02-18,2026-02-20
+VND-0060,"Curtis, Meyer and Black",Consulting,5.8,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2027-11-05,2026-11-18
+VND-0041,Hunter Group,Cloud Provider,5.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-08-13,2025-06-21
+VND-0184,Mcdonald PLC,Payment Processor,5.5,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-06-14,2026-12-18
+VND-0306,Sandoval Inc,Payment Processor,5.5,Low,RECENTLY_BREACHED_VENDOR,MEDIUM,Monitor vendor remediation progress; reassess in 90 days.,2023-05-21,2026-10-15
+VND-0155,"Robertson, Bowman and Brown",Contractor,5.3,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2023-03-28,2024-12-27
+VND-0047,Jacobs LLC,Contractor,5.2,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-09-01,2024-12-28
+VND-0004,Lin-Page,Cloud Provider,5.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2026-10-31,2026-02-18
+VND-0269,"Cook, Wolf and Watson",Software Vendor,5.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-11-22,2024-06-08
+VND-0255,Beck LLC,Cloud Provider,4.6,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-09-10,2024-02-04
+VND-0042,Delgado-Barber,Software Vendor,4.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-07-23,2025-07-05
+VND-0051,Murphy-Li,IT Services,4.5,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-03-04,2025-10-15
+VND-0108,Clark Inc,Cloud Provider,4.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-08-01,2025-04-05
+VND-0151,"Fowler, Bolton and Turner",Contractor,4.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-07-09,2025-04-29
+VND-0211,Hanson Ltd,Payment Processor,4.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-04-13,2026-08-08
+VND-0020,Smith PLC,Consulting,4.2,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-12-08,2025-05-10
+VND-0133,Wilkerson Inc,IT Services,4.2,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-02-17,2024-11-16
+VND-0316,Davis Inc,Software Vendor,4.0,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-01-10,2024-10-16
+VND-0080,"Davis, Potter and Serrano",IT Services,3.6,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-12-17,2025-07-04
+VND-0299,Roth-Murphy,Software Vendor,3.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-10-07,2024-08-10
+VND-0367,Lawrence and Sons,Consulting,3.5,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2024-07-17,2025-04-11
+VND-0395,"Houston, Hamilton and Brown",Consulting,3.5,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2025-10-30,2025-05-05
+VND-0212,Wilson-Howell,Consulting,3.4,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-06-09,2025-05-28
+VND-0014,"Thomas, Walker and English",Security Vendor,3.3,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-06-18,2025-09-05
+VND-0120,"Hill, Rogers and Morris",Security Vendor,3.3,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2023-12-28,2026-06-17
+VND-0347,"Stout, Garcia and Lopez",Security Vendor,3.0,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2028-08-26,2024-09-29
+VND-0197,Tucker-Norman,Data Analytics,2.7,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2026-12-05,2026-12-12
+VND-0070,Adams PLC,Contractor,2.2,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-06-02,2025-02-01
+VND-0033,Young and Sons,Cloud Provider,1.9,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2024-02-13,2026-02-19
+VND-0101,"Wade, Young and Church",IT Services,1.8,Low,EXPIRED_CERTIFICATION,MEDIUM,Request updated certification from vendor within 30 days.,2026-10-06,2024-09-01
+VND-0050,"Richard, Dodson and Flowers",Contractor,0.3,Low,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,Revoke access immediately or renew contract — orphaned access risk.,2026-02-27,2025-09-25
+VND-0162,Massey and Sons,Contractor,8.9,Low,ELEVATED_RISK_VENDOR,LOW,Increase monitoring frequency to quarterly.,2028-09-17,2024-12-10

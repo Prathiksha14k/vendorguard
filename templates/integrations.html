@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="mb-4">Integration Recommendations</h2>
+
+<div class="card shadow-sm p-4 mb-3">
+    <h5><i class="bi bi-ticket-detailed"></i> ITSM (ServiceNow / Jira Service Desk)</h5>
+    <p>Auto-create tickets from CRITICAL/HIGH anomalies via webhook, so remediation work enters the existing IT workflow instead of living only in this dashboard.</p>
+</div>
+
+<div class="card shadow-sm p-4 mb-3">
+    <h5><i class="bi bi-cart-check"></i> Procurement Systems (SAP Ariba / Coupa)</h5>
+    <p>Pull new vendor onboarding events automatically into the registry, and block contract renewal workflows when a vendor has an open CRITICAL anomaly.</p>
+</div>
+
+<div class="card shadow-sm p-4 mb-3">
+    <h5><i class="bi bi-envelope-fill"></i> Email/Slack Alerts</h5>
+    <p>Route CRITICAL anomaly alerts to a dedicated risk-response Slack channel or distribution list in real time, instead of requiring someone to check the dashboard.</p>
+</div>
+{% endblock %}

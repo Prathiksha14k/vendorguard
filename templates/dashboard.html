@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card text-center shadow-sm">
+            <div class="card-body">
+                <h6 class="text-muted">Total Vendors</h6>
+                <h2>{{ total }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center shadow-sm border-success">
+            <div class="card-body">
+                <h6 class="text-muted">Low Risk</h6>
+                <h2 class="text-success">{{ low_count }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center shadow-sm border-warning">
+            <div class="card-body">
+                <h6 class="text-muted">Medium Risk</h6>
+                <h2 class="text-warning">{{ med_count }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center shadow-sm border-danger">
+            <div class="card-body">
+                <h6 class="text-muted">High Risk</h6>
+                <h2 class="text-danger">{{ high_count }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form method="GET" class="row g-2 mb-4">
+    <div class="col-md-4">
+        <input type="text" name="search" class="form-control" placeholder="Search vendor name..." value="{{ search }}">
+    </div>
+    <div class="col-md-3">
+        <select name="tier" class="form-select">
+            <option value="">All Risk Tiers</option>
+            <option value="Low" {% if tier == "Low" %}selected{% endif %}>Low</option>
+            <option value="Medium" {% if tier == "Medium" %}selected{% endif %}>Medium</option>
+            <option value="High" {% if tier == "High" %}selected{% endif %}>High</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <select name="category" class="form-select">
+            <option value="">All Categories</option>
+            {% for c in categories %}
+            <option value="{{ c }}" {% if category == c %}selected{% endif %}>{{ c }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="col-md-1">
+        <button class="btn btn-primary w-100" type="submit">Filter</button>
+    </div>
+    <div class="col-md-1">
+        <a href="{{ url_for('dashboard') }}" class="btn btn-outline-secondary w-100">Clear</a>
+    </div>
+</form>
+
+<div class="row">
+    {% for vendor in vendors %}
+    <div class="col-md-4 mb-4">
+        <a href="{{ url_for('vendor_detail', vendor_id=vendor.id) }}" class="text-decoration-none text-dark">
+            <div class="card vendor-card shadow-sm h-100 tier-{{ vendor.risk_tier|lower }}">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <h5 class="card-title mb-1">{{ vendor.name }}</h5>
+                        {% if vendor.risk_tier == "Low" %}
+                            <span class="badge bg-success">Low</span>
+                        {% elif vendor.risk_tier == "Medium" %}
+                            <span class="badge bg-warning text-dark">Medium</span>
+                        {% else %}
+                            <span class="badge bg-danger">High</span>
+                        {% endif %}
+                    </div>
+
+                    {% if vendor.predicted_anomaly == vendor.is_anomaly %}
+                        <span class="badge bg-light text-success border border-success mt-1">
+                            <i class="bi bi-check-circle-fill"></i> Model agrees with audit
+                        </span>
+                    {% else %}
+                        <span class="badge bg-light text-danger border border-danger mt-1">
+                            <i class="bi bi-exclamation-triangle-fill"></i> Model disagrees — review
+                        </span>
+                    {% endif %}
+                    <p class="text-muted mb-2">
+                        {% if 'Cloud' in vendor.category %}<i class="bi bi-cloud-fill"></i>
+                        {% elif 'Contractor' in vendor.category %}<i class="bi bi-person-badge-fill"></i>
+                        {% elif 'Payment' in vendor.category %}<i class="bi bi-credit-card-fill"></i>
+                        {% elif 'MSP' in vendor.category or 'Managed' in vendor.category %}<i class="bi bi-gear-fill"></i>
+                        {% elif 'Software' in vendor.category %}<i class="bi bi-code-square"></i>
+                        {% else %}<i class="bi bi-building"></i>
+                        {% endif %}
+                        {{ vendor.category }}
+                    </p>
+                    <h4 class="mb-0">{{ vendor.risk_score }} <small class="text-muted">/ score</small></h4>
+                    <div class="score-bar-track mt-2">
+                            <div class="score-bar-fill tier-fill-{{ vendor.risk_tier|lower }}"
+                             style="width: {{ (vendor.risk_score / 23 * 100)|round(0, 'floor') }}%;"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    {% else %}
+    <p class="text-muted">No vendors yet. Click "+ Add Vendor" above to create your first one.</p>
+    {% endfor %}
+</div>
+
+{% endblock %}

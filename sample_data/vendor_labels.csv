@@ -1,0 +1,401 @@
+vendor_id,is_anomaly,anomaly_type,severity,expired_certifications,explanation
+VND-0001,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 50.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0002,FALSE,NORMAL,LOW,None,"Vendor Weber, Smith and Mcguire shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0003,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0004,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0005,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 44.0 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0006,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0007,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0008,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,ISO27001,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0009,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 55.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0010,FALSE,NORMAL,LOW,None,"Vendor Brown, Clark and Marshall shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0011,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,ISO27001,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0012,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0013,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0014,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0015,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0016,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0017,FALSE,NORMAL,LOW,None,Vendor Lang PLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0018,FALSE,NORMAL,LOW,None,"Vendor Sanders, Davis and Fisher shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0019,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0020,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 39.8 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0021,FALSE,NORMAL,LOW,None,Vendor Miles-Hanson shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0022,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0023,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0024,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0025,FALSE,NORMAL,LOW,None,"Vendor Hoffman, Santos and Gonzalez shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0026,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0027,TRUE,EXPIRED_CERTIFICATION,MEDIUM,"SOC2, ISO27001","Vendor has expired security certification(s) (SOC2, ISO27001) that should have been renewed."
+VND-0028,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0029,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2023-11-13 yet system access has not been revoked, violating offboarding policy."
+VND-0030,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 43.3 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0031,FALSE,NORMAL,LOW,None,Vendor Edwards LLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0032,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 24.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0033,FALSE,NORMAL,LOW,None,Vendor Young and Sons shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0034,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 39.0 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0035,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0036,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0037,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0038,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0039,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0040,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0041,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0042,FALSE,NORMAL,LOW,None,Vendor Delgado-Barber shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0043,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0044,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0045,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0046,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0047,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0048,TRUE,EXPIRED_CERTIFICATION,MEDIUM,"SOC2, ISO27001","Vendor has expired security certification(s) (SOC2, ISO27001) that should have been renewed."
+VND-0049,FALSE,NORMAL,LOW,None,Vendor Villa-Rodriguez shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0050,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0051,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 48.1 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0052,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 55.1 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0053,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 95.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0054,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 57.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0055,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0056,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0057,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0058,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0059,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0060,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0061,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 87.0 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0062,FALSE,NORMAL,LOW,None,"Vendor Hamilton, Neal and Saunders shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0063,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,SOC2,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0064,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 54.6 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0065,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0066,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 96.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0067,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0068,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0069,FALSE,NORMAL,LOW,None,"Vendor Murphy, Anderson and Nichols shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0070,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0071,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0072,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0073,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0074,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 51.4 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0075,FALSE,NORMAL,LOW,None,Vendor Haynes-Aguirre shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0076,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0077,FALSE,NORMAL,LOW,None,"Vendor Davis, Reynolds and Turner shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0078,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0079,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0080,FALSE,NORMAL,LOW,None,"Vendor Davis, Potter and Serrano shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0081,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0082,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 45.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0083,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0084,FALSE,NORMAL,LOW,None,Vendor Rose-Austin shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0085,FALSE,NORMAL,LOW,None,"Vendor Buck, Camacho and Bowers shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0086,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0087,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 13.5 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0088,FALSE,NORMAL,LOW,None,"Vendor Beard, Andersen and Fields shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0089,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 39.6 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0090,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0091,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2023-03-19 yet system access has not been revoked, violating offboarding policy."
+VND-0092,FALSE,NORMAL,LOW,None,Vendor Hodges Inc shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0093,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0094,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0095,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0096,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0097,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0098,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0099,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0100,FALSE,NORMAL,LOW,None,Vendor Hernandez-Jenkins shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0101,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,ISO27001,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0102,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0103,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0104,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0105,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0106,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,SOC2,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0107,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2023-09-15 yet system access has not been revoked, violating offboarding policy."
+VND-0108,TRUE,EXPIRED_CERTIFICATION,MEDIUM,"SOC2, ISO27001","Vendor has expired security certification(s) (SOC2, ISO27001) that should have been renewed."
+VND-0109,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0110,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0111,FALSE,NORMAL,LOW,None,"Vendor Lee, Johnson and Smith shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0112,FALSE,NORMAL,LOW,None,Vendor Gardner and Sons shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0113,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0114,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0115,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0116,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0117,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0118,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0119,FALSE,NORMAL,LOW,None,Vendor Rice Group shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0120,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0121,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0122,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0123,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0124,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0125,FALSE,NORMAL,LOW,None,Vendor Reed-Lang shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0126,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0127,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0128,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,ISO27001,"Vendor's contract expired on 2025-01-26 yet system access has not been revoked, violating offboarding policy."
+VND-0129,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 55.9 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0130,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 36.5 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0131,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0132,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 39.8 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0133,FALSE,NORMAL,LOW,None,Vendor Wilkerson Inc shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0134,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0135,FALSE,NORMAL,LOW,None,Vendor Wood-Jimenez shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0136,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 57.4 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0137,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2025-07-15 yet system access has not been revoked, violating offboarding policy."
+VND-0138,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0139,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0140,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0141,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,SOC2,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0142,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0143,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0144,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0145,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0146,FALSE,NORMAL,LOW,None,Vendor Long-Watts shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0147,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0148,FALSE,NORMAL,LOW,None,Vendor Morrison-Mora shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0149,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0150,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0151,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0152,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0153,FALSE,NORMAL,LOW,None,Vendor Rodriguez-Jacobs shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0154,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2024-01-26 yet system access has not been revoked, violating offboarding policy."
+VND-0155,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0156,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0157,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0158,FALSE,NORMAL,LOW,None,"Vendor Morales, Castillo and Jones shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0159,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0160,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0161,FALSE,NORMAL,LOW,None,Vendor Thompson LLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0162,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0163,FALSE,NORMAL,LOW,None,"Vendor Elliott, Abbott and Harper shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0164,FALSE,NORMAL,LOW,None,Vendor Smith-Hurley shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0165,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0166,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0167,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0168,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0169,FALSE,NORMAL,LOW,None,Vendor Arnold and Sons shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0170,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0171,FALSE,NORMAL,LOW,None,"Vendor Marshall, Ramos and Ferguson shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0172,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0173,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0174,FALSE,NORMAL,LOW,None,Vendor Rojas LLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0175,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0176,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 40.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0177,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0178,FALSE,NORMAL,LOW,None,"Vendor Harris, Cruz and Reeves shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0179,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 31.9 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0180,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0181,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,ISO27001,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0182,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0183,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0184,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0185,FALSE,NORMAL,LOW,None,"Vendor Huber, Warner and Williams shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0186,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0187,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0188,FALSE,NORMAL,LOW,None,Vendor Buck-Williams shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0189,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0190,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0191,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0192,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0193,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0194,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0195,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,ISO27001,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0196,FALSE,NORMAL,LOW,None,"Vendor Young, Ayers and Morrison shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0197,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,ISO27001,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0198,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 41.0 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0199,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 35.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0200,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2024-06-18 yet system access has not been revoked, violating offboarding policy."
+VND-0201,FALSE,NORMAL,LOW,None,"Vendor French, Garcia and Williams shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0202,TRUE,EXPIRED_CERTIFICATION,MEDIUM,"SOC2, ISO27001","Vendor has expired security certification(s) (SOC2, ISO27001) that should have been renewed."
+VND-0203,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0204,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,SOC2,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0205,FALSE,NORMAL,LOW,None,"Vendor Harris, Andrews and Soto shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0206,FALSE,NORMAL,LOW,None,Vendor Walker-Herrera shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0207,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 54.4 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0208,FALSE,NORMAL,LOW,None,Vendor Morris PLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0209,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0210,FALSE,NORMAL,LOW,None,"Vendor Mckinney, Meyer and Farrell shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0211,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0212,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2024-06-09 yet system access has not been revoked, violating offboarding policy."
+VND-0213,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2023-11-27 yet system access has not been revoked, violating offboarding policy."
+VND-0214,FALSE,NORMAL,LOW,None,"Vendor Delgado, White and Taylor shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0215,FALSE,NORMAL,LOW,None,Vendor Kim Inc shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0216,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 93.0 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0217,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0218,FALSE,NORMAL,LOW,None,Vendor Terry Inc shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0219,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 85.9 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0220,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0221,FALSE,NORMAL,LOW,None,Vendor Walker-Mcmahon shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0222,FALSE,NORMAL,LOW,None,Vendor Buckley Inc shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0223,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0224,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 47.1 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0225,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 47.3 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0226,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0227,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0228,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0229,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 51.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0230,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 44.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0231,FALSE,NORMAL,LOW,None,"Vendor Jimenez, Galvan and Oliver shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0232,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 93.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0233,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0234,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2025-04-30 yet system access has not been revoked, violating offboarding policy."
+VND-0235,FALSE,NORMAL,LOW,None,Vendor Hunt-Mendez shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0236,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0237,FALSE,NORMAL,LOW,None,Vendor Gilmore PLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0238,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0239,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,SOC2,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0240,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0241,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2023-02-04 yet system access has not been revoked, violating offboarding policy."
+VND-0242,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 52.5 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0243,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0244,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0245,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0246,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 59.3 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0247,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0248,FALSE,NORMAL,LOW,None,Vendor Long-Mccoy shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0249,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0250,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0251,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0252,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0253,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0254,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 59.6 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0255,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0256,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0257,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0258,TRUE,EXPIRED_CERTIFICATION,MEDIUM,"SOC2, ISO27001","Vendor has expired security certification(s) (SOC2, ISO27001) that should have been renewed."
+VND-0259,FALSE,NORMAL,LOW,None,Vendor Mitchell-Lane shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0260,FALSE,NORMAL,LOW,None,Vendor Payne LLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0261,FALSE,NORMAL,LOW,None,Vendor Oliver-Kennedy shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0262,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0263,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0264,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2024-08-02 yet system access has not been revoked, violating offboarding policy."
+VND-0265,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0266,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 89.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0267,FALSE,NORMAL,LOW,None,Vendor Petty PLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0268,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0269,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2024-11-22 yet system access has not been revoked, violating offboarding policy."
+VND-0270,FALSE,NORMAL,LOW,None,Vendor Reid PLC shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0271,FALSE,NORMAL,LOW,None,Vendor Cervantes-Pearson shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0272,FALSE,NORMAL,LOW,None,"Vendor Smith, Taylor and Guzman shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0273,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0274,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0275,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0276,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0277,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0278,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 91.8 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0279,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0280,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0281,FALSE,NORMAL,LOW,None,"Vendor Leach, Turner and Monroe shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0282,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 42.5 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0283,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0284,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0285,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0286,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0287,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0288,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0289,FALSE,NORMAL,LOW,None,Vendor Mitchell Group shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0290,FALSE,NORMAL,LOW,None,"Vendor Mckinney, Bowen and Rice shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0291,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 47.5 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0292,FALSE,NORMAL,LOW,None,"Vendor Moreno, Armstrong and Gregory shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0293,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0294,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 48.3 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0295,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0296,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 53.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0297,FALSE,NORMAL,LOW,None,Vendor Lee-Porter shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0298,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0299,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 56.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0300,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0301,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0302,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0303,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0304,TRUE,HIGH_RISK_SCORE,HIGH,SOC2,"Vendor's calculated risk score of 46.5 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0305,FALSE,NORMAL,LOW,None,Vendor Thomas Inc shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0306,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0307,FALSE,NORMAL,LOW,None,"Vendor Hahn, Griffin and Collins shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0308,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0309,FALSE,NORMAL,LOW,None,"Vendor Lang, Ellis and Stone shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0310,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0311,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0312,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2025-07-16 yet system access has not been revoked, violating offboarding policy."
+VND-0313,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0314,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0315,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 52.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0316,FALSE,NORMAL,LOW,None,Vendor Davis Inc shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0317,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0318,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0319,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,ISO27001,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0320,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 82.4 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0321,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0322,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0323,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0324,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,ISO27001,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0325,FALSE,NORMAL,LOW,None,"Vendor Smith, Clark and Bennett shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0326,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 58.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0327,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 87.4 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0328,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 55.4 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0329,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0330,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0331,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0332,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0333,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0334,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0335,FALSE,NORMAL,LOW,None,Vendor Davis and Sons shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0336,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2023-10-09 yet system access has not been revoked, violating offboarding policy."
+VND-0337,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0338,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 38.7 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0339,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0340,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0341,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0342,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0343,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0344,TRUE,HIGH_RISK_SCORE,HIGH,SOC2,"Vendor's calculated risk score of 57.9 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0345,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0346,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0347,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0348,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0349,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0350,TRUE,HIGH_RISK_SCORE,HIGH,SOC2,"Vendor's calculated risk score of 59.0 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0351,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2025-05-22 yet system access has not been revoked, violating offboarding policy."
+VND-0352,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0353,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0354,FALSE,NORMAL,LOW,None,Vendor Thompson-Cochran shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0355,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 48.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0356,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0357,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0358,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2025-06-21 yet system access has not been revoked, violating offboarding policy."
+VND-0359,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 58.5 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0360,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0361,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0362,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0363,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,SOC2,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0364,FALSE,NORMAL,LOW,None,Vendor Pennington-Stevens shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0365,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,ISO27001,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0366,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0367,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2024-07-17 yet system access has not been revoked, violating offboarding policy."
+VND-0368,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0369,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0370,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 53.0 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0371,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0372,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0373,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,None,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0374,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2024-04-22 yet system access has not been revoked, violating offboarding policy."
+VND-0375,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 45.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0376,FALSE,NORMAL,LOW,None,Vendor Hernandez-Green shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0377,FALSE,NORMAL,LOW,None,Vendor Thomas-Reyes shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0378,FALSE,NORMAL,LOW,None,Vendor Wilcox Inc shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0379,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0380,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0381,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0382,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0383,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 93.6 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0384,TRUE,RECENTLY_BREACHED_VENDOR,HIGH,ISO27001,"Vendor experienced a security breach within the last 24 months, indicating ongoing security concerns."
+VND-0385,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 9, posing elevated exposure risk."
+VND-0386,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0387,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 10, posing elevated exposure risk."
+VND-0388,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 48.2 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0389,FALSE,NORMAL,LOW,None,Vendor Campos and Sons shows no anomalous risk indicators; certifications current and risk profile within acceptable range.
+VND-0390,FALSE,NORMAL,LOW,None,"Vendor Meyer, Levine and Wilson shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0391,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0392,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0393,TRUE,VENDOR_UNDER_INVESTIGATION,CRITICAL,None,Vendor is currently under active compliance/security investigation; access should be reviewed immediately.
+VND-0394,TRUE,HIGH_RISK_SCORE,HIGH,None,"Vendor's calculated risk score of 29.1 exceeds the high-risk threshold based on sensitivity, access, and compliance gaps."
+VND-0395,FALSE,NORMAL,LOW,None,"Vendor Houston, Hamilton and Brown shows no anomalous risk indicators; certifications current and risk profile within acceptable range."
+VND-0396,TRUE,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Vendor has expired security certification(s) (ISO27001) that should have been renewed.
+VND-0397,TRUE,ELEVATED_RISK_VENDOR,MEDIUM,None,Vendor's risk score is trending upward and sits in an elevated medium-risk band warranting closer monitoring.
+VND-0398,TRUE,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,None,"Vendor has a documented breach history while holding full_admin access at scope level 8, posing elevated exposure risk."
+VND-0399,TRUE,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Vendor has expired security certification(s) (SOC2) that should have been renewed.
+VND-0400,TRUE,CONTRACT_EXPIRED_ACTIVE_ACCESS,HIGH,None,"Vendor's contract expired on 2024-02-23 yet system access has not been revoked, violating offboarding policy."

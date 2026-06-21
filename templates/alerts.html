@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="mb-4">Alerts Inbox <span class="badge bg-secondary">{{ alerts|length }} Open</span></h2>
+
+<div class="mb-3">
+    <a href="{{ url_for('alerts_page') }}" class="btn btn-sm {% if not filter_type %}btn-dark{% else %}btn-outline-dark{% endif %}">
+        All ({{ type_counts.values()|sum }})
+    </a>
+    <a href="{{ url_for('alerts_page', type='breach_detected') }}" class="btn btn-sm {% if filter_type == 'breach_detected' %}btn-danger{% else %}btn-outline-danger{% endif %}">
+        Breaches ({{ type_counts.breach_detected }})
+    </a>
+    <a href="{{ url_for('alerts_page', type='contract_expiring') }}" class="btn btn-sm {% if filter_type == 'contract_expiring' %}btn-warning{% else %}btn-outline-warning{% endif %}">
+        Contracts Expiring ({{ type_counts.contract_expiring }})
+    </a>
+    <a href="{{ url_for('alerts_page', type='cert_expiring') }}" class="btn btn-sm {% if filter_type == 'cert_expiring' %}btn-warning{% else %}btn-outline-warning{% endif %}">
+        Certs Expiring ({{ type_counts.cert_expiring }})
+    </a>
+    <a href="{{ url_for('alerts_page', type='assessment_overdue') }}" class="btn btn-sm {% if filter_type == 'assessment_overdue' %}btn-secondary{% else %}btn-outline-secondary{% endif %}">
+        Assessments Overdue ({{ type_counts.assessment_overdue }})
+    </a>
+</div>
+
+<table class="table table-hover shadow-sm bg-white">
+    <thead class="table-dark">
+        <tr>
+            <th>Vendor</th>
+            <th>Type</th>
+            <th>Message</th>
+            <th>Due Date</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for alert in alerts %}
+        <tr class="{% if alert.status == 'Open' %}table-warning{% endif %}">
+            <td><a href="{{ url_for('vendor_detail', vendor_id=alert.vendor_id) }}">{{ alert.vendor.name }}</a></td>
+            <td>{{ alert.alert_type.replace('_', ' ').title() }}</td>
+            <td>{{ alert.message }}</td>
+            <td>{{ alert.due_date }}</td>
+            <td>
+                {% if alert.status == "Open" %}
+                <span class="badge bg-danger">Open</span>
+                {% else %}
+                <span class="badge bg-success">Resolved</span>
+                {% endif %}
+            </td>
+            <td>
+                {% if alert.status == "Open" %}
+                <form action="{{ url_for('resolve_alert', alert_id=alert.id) }}" method="POST">
+                    <button class="btn btn-sm btn-outline-success">Mark Resolved</button>
+                </form>
+                {% endif %}
+            </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="6" class="text-muted">No alerts right now. 🎉</td></tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

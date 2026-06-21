@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="mb-4">Vendor Risk Portfolio Report — {{ report_date }}</h2>
+
+<div class="card shadow-sm p-4 mb-4">
+    <h5>Summary</h5>
+    <p>
+        <strong>{{ total }} vendors</strong> tracked.
+        Risk: Low {{ low_count }}, Medium {{ med_count }}, High {{ high_count }}
+    </p>
+    <p><strong>Certification coverage:</strong> {{ cert_coverage }}% active</p>
+</div>
+
+<div class="card shadow-sm p-4 mb-4">
+    <h5>🚩 Ranked Risk Register — {{ flagged_sorted|length }} Vendors Flagged</h5>
+
+    <ol>
+        {% for v in flagged_sorted[:15] %}
+        <li class="mb-3">
+            <strong>{{ v.name }}</strong> (VND-{{ "%04d"|format(v.id) }}) —
+            {{ v.risk_score }} <span class="text-uppercase">{{ v.risk_tier }}</span>
+            <br>
+            <span class="badge bg-dark">{{ v.predicted_severity }}</span>
+            <span class="badge bg-secondary">{{ v.predicted_anomaly_type }}</span>
+            <br>
+            <small class="text-muted">Action: {{ v.recommended_action }}</small>
+            — <a href="{{ url_for('vendor_detail', vendor_id=v.id) }}">view details</a>
+        </li>
+        {% else %}
+        <li class="text-muted">No vendors flagged.</li>
+        {% endfor %}
+    </ol>
+</div>
+
+<a href="javascript:window.print()" class="btn btn-primary">🖨️ Print / Save as PDF</a>
+
+{% endblock %}
